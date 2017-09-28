@@ -1,1 +1,1 @@
-# Codeforces Gyms' Solutions
+# Codeforces' Gyms' Solutions
