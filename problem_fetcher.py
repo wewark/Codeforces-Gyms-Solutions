@@ -97,11 +97,10 @@ print gym_name
 print 'Getting problems...'
 problems = get_AC_problems(gym_id)
 
-gym_dir = '{} - {}'.format(gym_id, gym_name)
+gym_dir = 'Solutions/{} - {}'.format(gym_id, gym_name)
 if not os.path.exists(gym_dir):
     os.makedirs(gym_dir)
 
-get_code(gym_id, problems['A'])
 for letter, problem in problems.items():
     print 'Writing problem {} code...'.format(letter)
     f = open('{}/{}.cpp'.format(gym_dir, letter), 'w')
