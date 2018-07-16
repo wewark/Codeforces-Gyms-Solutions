@@ -10,7 +10,7 @@ session_requests = requests.session()
 
 
 def scrape_payload(page_name, url, new_payload):
-    print 'Loading ' + page_name + '...'
+    print('Loading ' + page_name + '...')
     result = session_requests.get(url)
     tree = html.fromstring(result.text)
     elements = list(set(tree.xpath("//input")))
@@ -18,7 +18,7 @@ def scrape_payload(page_name, url, new_payload):
     for element in elements:
         payload[element.name] = element.get('value')
     for element in elements:
-        for key, value in new_payload.iteritems():
+        for key, value in new_payload.items():
             if element.name == key:
                 payload[element.name] = value
     return payload
@@ -80,7 +80,7 @@ def get_code(gym_id, problem_id):
 
     code = tree.xpath('//*[@id="pageContent"]/div[3]/pre/text()')
     if len(code) == 0:
-        print "Error: Code can't be fetched"
+        print("Error: Code can't be fetched")
     code[0] = code[0].replace('\r\n', '\n')
     time.sleep(0.3)
     return code[0]
@@ -90,11 +90,11 @@ username = 'wewark'
 password = getpass.getpass('Password: ')
 login_to_CF(username, password)
 
-gym_id = raw_input('Gym ID: ')
-print 'Getting gym name...'
+gym_id = input('Gym ID: ')
+print('Getting gym name...')
 gym_name = get_gym_name(gym_id)
-print gym_name
-print 'Getting problems...'
+print(gym_name)
+print('Getting problems...')
 problems = get_AC_problems(gym_id)
 
 gym_dir = 'Solutions/{} - {}'.format(gym_id, gym_name)
@@ -102,6 +102,6 @@ if not os.path.exists(gym_dir):
     os.makedirs(gym_dir)
 
 for letter, problem in problems.items():
-    print 'Writing problem {} code...'.format(letter)
+    print('Writing problem {} code...'.format(letter))
     f = open('{}/{}.cpp'.format(gym_dir, letter), 'w')
     f.write(get_code(gym_id, problem).encode('utf-8'))
