@@ -103,5 +103,5 @@ if not os.path.exists(gym_dir):
 
 for letter, problem in problems.items():
     print('Writing problem {} code...'.format(letter))
-    f = open('{}/{}.cpp'.format(gym_dir, letter), 'w')
+    f = open('{}/{}.cpp'.format(gym_dir, letter), 'wb')
     f.write(get_code(gym_id, problem).encode('utf-8'))
