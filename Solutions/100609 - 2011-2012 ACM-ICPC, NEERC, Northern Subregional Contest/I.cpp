@@ -22,7 +22,7 @@ int n, m;
 int arr[20][20];
 vector<int> path[20][20];
 
-void floyed() {
+void floyd() {
 	for (int k = 0; k < n; ++k) {
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
@@ -95,7 +95,7 @@ int main() {
 		arr[x][y] = arr[y][x] = v;
 	}
 	for (int i = 0; i < n; i++) arr[i][i] = 0;
-	floyed();
+	floyd();
 
 	int mn = 1e9;
 	int msk1, msk2;
