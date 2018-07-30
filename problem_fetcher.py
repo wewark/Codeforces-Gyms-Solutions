@@ -82,7 +82,7 @@ def get_code(gym_id, problem_id):
     if len(code) == 0:
         print("Error: Code can't be fetched")
     code[0] = code[0].replace('\r\n', '\n')
-    time.sleep(0.3)
+    time.sleep(0.5)
     return code[0]
 
 
