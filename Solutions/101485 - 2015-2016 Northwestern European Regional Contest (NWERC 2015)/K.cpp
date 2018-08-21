@@ -1,3 +1,6 @@
+// 101485 - 2015-2016 Northwestern European Regional Contest (NWERC 2015)
+// 101485K
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

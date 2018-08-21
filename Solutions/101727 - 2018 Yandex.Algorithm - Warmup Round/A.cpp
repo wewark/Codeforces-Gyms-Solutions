@@ -1,3 +1,6 @@
+// 101727 - 2018 Yandex.Algorithm - Warmup Round
+// 101727A
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

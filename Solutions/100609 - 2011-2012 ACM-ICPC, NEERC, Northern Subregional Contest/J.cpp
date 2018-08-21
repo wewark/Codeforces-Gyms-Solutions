@@ -1,3 +1,6 @@
+// 100609 - 2011-2012 ACM-ICPC, NEERC, Northern Subregional Contest
+// 100609J
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

@@ -1,3 +1,6 @@
+// 101673 - 2017-2018 ACM-ICPC East Central North America Regional Contest (ECNA 2017)
+// 101673J
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

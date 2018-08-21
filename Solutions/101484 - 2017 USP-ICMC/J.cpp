@@ -1,3 +1,6 @@
+// 101484 - 2017 USP-ICMC
+// 101484J
+
 #include <bits/stdc++.h>
 using namespace std;
 

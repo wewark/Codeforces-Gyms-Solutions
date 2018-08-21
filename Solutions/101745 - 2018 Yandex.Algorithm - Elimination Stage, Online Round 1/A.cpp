@@ -1,3 +1,6 @@
+// 101745 - 2018 Yandex.Algorithm - Elimination Stage, Online Round 1
+// 101745A
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

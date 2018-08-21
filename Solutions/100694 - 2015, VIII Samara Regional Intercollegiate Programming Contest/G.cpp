@@ -1,3 +1,6 @@
+// 100694 - 2015, VIII Samara Regional Intercollegiate Programming Contest
+// 100694G
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

@@ -1,3 +1,6 @@
+// 101635 - 2017-2018 ACM-ICPC Southwestern European Regional Programming Contest (SWERC 2017)
+// 101635E
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

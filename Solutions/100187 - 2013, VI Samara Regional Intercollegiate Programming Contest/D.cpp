@@ -1,3 +1,6 @@
+// 100187 - 2013, VI Samara Regional Intercollegiate Programming Contest
+// 100187D
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

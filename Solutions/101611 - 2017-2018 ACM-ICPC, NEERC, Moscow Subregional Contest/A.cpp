@@ -1,3 +1,6 @@
+// 101611 - 2017-2018 ACM-ICPC, NEERC, Moscow Subregional Contest
+// 101611A
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

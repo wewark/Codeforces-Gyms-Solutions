@@ -1,3 +1,6 @@
+// 100738 - KTU Programming Camp (Day 2)
+// 100738C
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

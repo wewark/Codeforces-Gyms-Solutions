@@ -1,3 +1,6 @@
+// 101243 - 2016-2017 ACM-ICPC, NEERC, Central Subregional Contest
+// 101243A
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

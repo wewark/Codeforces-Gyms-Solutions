@@ -1,3 +1,6 @@
+// 101512 - 2014 Benelux Algorithm Programming Contest (BAPC 14)
+// 101512B
+
 #include <bits/stdc++.h>
 
 using namespace std;

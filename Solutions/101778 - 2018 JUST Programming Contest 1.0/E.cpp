@@ -1,3 +1,6 @@
+// 101778 - 2018 JUST Programming Contest 1.0
+// 101778E
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

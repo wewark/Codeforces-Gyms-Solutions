@@ -1,3 +1,6 @@
+// 101341 - 2017, X Samara Regional Intercollegiate Programming Contest
+// 101341D
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

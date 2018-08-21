@@ -1,3 +1,6 @@
+// 101572 - 2017-2018 ACM-ICPC Nordic Collegiate Programming Contest (NCPC 2017)
+// 101572B
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

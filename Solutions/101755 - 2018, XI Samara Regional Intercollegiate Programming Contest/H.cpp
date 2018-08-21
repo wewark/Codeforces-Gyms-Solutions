@@ -1,3 +1,6 @@
+// 101755 - 2018, XI Samara Regional Intercollegiate Programming Contest
+// 101755H
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

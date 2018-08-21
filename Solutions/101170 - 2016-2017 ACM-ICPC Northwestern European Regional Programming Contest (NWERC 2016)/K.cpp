@@ -1,3 +1,6 @@
+// 101170 - 2016-2017 ACM-ICPC Northwestern European Regional Programming Contest (NWERC 2016)
+// 101170K
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

@@ -1,3 +1,6 @@
+// 100506 - 2014-2015 CT S02E06 Codeforces Trainings Season 2 Episode 6 - 2007 Benelux Algorithm Programming Contest (BAPC 2007)
+// 100506D
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

@@ -1,3 +1,6 @@
+// 100971 - 2016, IX Samara Regional Intercollegiate Programming Contest
+// 100971J
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef unsigned long long ll;

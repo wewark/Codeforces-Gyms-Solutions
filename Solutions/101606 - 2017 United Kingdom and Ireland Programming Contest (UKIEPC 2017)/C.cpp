@@ -1,3 +1,6 @@
+// 101606 - 2017 United Kingdom and Ireland Programming Contest (UKIEPC 2017)
+// 101606C
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;

@@ -1,3 +1,6 @@
+// 101630 - 2017-2018 ACM-ICPC Northern Eurasia (Northeastern European Regional) Contest (NEERC 17)
+// 101630E
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,6 @@
+// 101196 - 2016-2017 ACM-ICPC East Central North America Regional Contest (ECNA 2016)
+// 101196D
+
 #include <bits/stdc++.h>
 
 using namespace std;

@@ -1,3 +1,6 @@
+// 101205 - 2012 ACM-ICPC World Finals
+// 101205B
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long LL;

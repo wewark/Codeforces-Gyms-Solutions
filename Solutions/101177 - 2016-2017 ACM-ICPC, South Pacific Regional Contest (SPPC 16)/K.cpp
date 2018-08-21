@@ -1,3 +1,6 @@
+// 101177 - 2016-2017 ACM-ICPC, South Pacific Regional Contest (SPPC 16)
+// 101177K
+
 #include <bits/stdc++.h>
 
 using namespace std;

@@ -1,3 +1,6 @@
+// 101754 - Yandex.Algorithm 2018, second qualification round
+// 101754C
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
