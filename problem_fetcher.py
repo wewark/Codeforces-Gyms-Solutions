@@ -103,5 +103,14 @@ if not os.path.exists(gym_dir):
 
 for letter, problem in problems.items():
     print('Writing problem {} code...'.format(letter))
-    f = open('{}/{}.cpp'.format(gym_dir, letter), 'wb')
-    f.write(get_code(gym_id, problem).encode('utf-8'))
+    with open('{}/{}.cpp'.format(gym_dir, letter), 'w', encoding='utf-8') as f:
+
+        contents = get_code(gym_id, problem)[1:]
+        header = "// %(gym_name)s\n// %(gym_num)s%(problem_letter)s\n\n" % {
+            'gym_name': gym_name,
+            'gym_num': gym_id[:6],
+            'problem_letter': letter[0]
+        }
+        contents = header + contents
+
+        f.write(contents)
