@@ -1,7 +1,7 @@
 // 101808 - ACM International Collegiate Programming Contest, Damascus University Collegiate Programming Contest(2018)
 // 101808I
 
-﻿#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
 typedef vector<int> vi;
