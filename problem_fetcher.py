@@ -2,6 +2,7 @@ import getpass
 import hashlib
 import os
 import time
+import string
 
 import requests
 from lxml import html
@@ -97,6 +98,8 @@ print(gym_name)
 print('Getting problems...')
 problems = get_AC_problems(gym_id)
 
+valid_chars = "-_.() %s%s" % (string.ascii_letters, string.digits)
+gym_name = ''.join(c for c in gym_name if c in valid_chars)
 gym_dir = 'Solutions/{} - {}'.format(gym_id, gym_name)
 if not os.path.exists(gym_dir):
     os.makedirs(gym_dir)
