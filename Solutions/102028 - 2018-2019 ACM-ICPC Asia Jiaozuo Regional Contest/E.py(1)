@@ -1,0 +1,46 @@
+'''
+author: @vinuthegr8
+Submission Link:https://codeforces.com/gym/102028/submission/59212501
+'''
+
+import sys
+import math
+# input = sys.stdin.readline
+ 
+primes=[0]*1000
+primes[0]=1
+primes[1]=1
+ 
+for i in range(1000):
+	if primes[i]==0:
+		for i in range(2*i,1000,i):
+			primes[i]=1
+ 
+prim=[]
+for i in range(1000):
+	if primes[i]==0:
+		prim.append(i)
+ 
+num=[3]
+den=[2]
+ans1=[3]
+ans2=[2]
+for i in range(1,101):
+	num.append((prim[i]+1)*num[-1])
+	den.append(den[-1]*prim[i])
+	# print(num[-1],den[-1])
+	g=math.gcd(num[-1],den[-1])
+	ans1.append(num[-1]//g)
+	ans2.append(den[-1]//g)
+ 
+t=int(input())
+for i in range(t):
+	n=int(input())
+	z=0
+	while den[z]<=n:
+		z+=1
+	z-=1
+	if n==1:
+		print("1/1")
+	else:
+		print(str(ans2[z])+"/"+str(ans1[z]))
